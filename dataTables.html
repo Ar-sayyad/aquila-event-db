@@ -520,7 +520,7 @@
 <script src="styles/datatables/dataTables.bootstrap4.min.js"></script>
 <script src="styles/jquery/luna.js"></script>
 <script>
-    $(document).ready(function() {       
+    $(document).ready(function() {  
     $('#tableExample3').DataTable({
         dom: "<'row'<'col-sm-4'l><'col-sm-4 text-center'B><'col-sm-4'f>>tp",
         "lengthMenu": [
@@ -543,7 +543,7 @@
             });
             this.api().columns(1).every(function() {
                 var column = this;
-                var select = $("<input type='text' class='form-control' id='datepicker' placeholder='--- Select Date ---'>").appendTo($(column.header()).empty()).on('change', function() {
+                $("<input type='text' class='form-control' id='datepicker' placeholder='--- Select Date ---'>").appendTo($(column.header()).empty()).on('change', function() {
                     var val = $.fn.dataTable.util.escapeRegex($(this).val());
                     column.search(val ? '^' + val + '$' : '', !0, !1).draw();
                 });

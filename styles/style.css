@@ -2252,14 +2252,14 @@ img.image-xl {
 }
 .form-control {
   color: #f8f9fa;
-  border: none;
+  border: 1px solid #ffffff;
   border-radius: 3px;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
-  background-color: #212529;
+  background-color: #000000;
   font-size: 0.88rem;
 }
 .form-control:focus {
@@ -3272,9 +3272,9 @@ div.dt-button-info h2 {
 }
 .select2-container--default .select2-selection--single,
 .select2-container--default .select2-selection--multiple {
-  color: #949ba2;
-  border-color: #2f323b;
-  background-color: #212529;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+  background-color: #000000;
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #f8f9fa;
@@ -3298,7 +3298,7 @@ div.dt-button-info h2 {
 }
 .select2-container--default.select2-container--focus .select2-selection--single,
 .select2-container--default.select2-container--focus .select2-selection--multiple {
-  border-color: #f6a821;
+  border-color: #f8f9fa;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #f6a821;
